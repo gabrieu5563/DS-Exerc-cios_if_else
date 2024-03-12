@@ -6,6 +6,6 @@ idade = 2024 - nascimento
 
 
 if idade >= 16:
-                print('pode votar')
+        print('pode votar')
 else:
         print("nao pode votar")
