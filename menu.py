@@ -35,7 +35,7 @@ while ex != 0:
             os.system("cls")
 
         case 2:
-            nascimento = int(input("Digite sua data de nascimento: "))
+            nascimento = int(input("Digite o ano que você nasceu: "))
             idade = 2024 - nascimento
 
             if idade >= 16:
@@ -130,12 +130,12 @@ while ex != 0:
             elif lados == 3:
                 print("TRIÂNGULO")
                 area = (tamanho * tamanho) / 2
-                print(area)
+                print("Area: " + str(area))
 
             elif lados == 4:
                 print("QUADRADO")
                 area = (tamanho * tamanho)
-                print(area)
+                print("Area: " + str(area))
 
             else:
                 print("PENTAGONO")
